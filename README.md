@@ -6,7 +6,7 @@ DataForge is an end-to-end data preprocessing pipeline that transforms raw, mess
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 Most real-world datasets are broken. Missing values, mixed date formats, outliers, text categories that ML models can't read. DataForge fixes all of it in four stages:
 
@@ -15,11 +15,11 @@ Most real-world datasets are broken. Missing values, mixed date formats, outlier
 | 1 | 🔍 Data Detective | Automatically infers schema — column types, missing value patterns, format inconsistencies |
 | 2 | 🩺 Data Doctor | Statistical imputation (median/mode fill), outlier detection (2.5σ), date standardization |
 | 3 | 🔄 Translator | One-hot encoding, min-max normalization, date feature extraction |
-| 4 + ✨ | 📊 Report Card | Full pipeline audit, data quality scoring, and ML model recommender |
+| 4 | 📊 Report Card | Full pipeline audit, data quality scoring, and ML model recommender |
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Zero configuration** — paste a CSV, get clean AI-ready data
 - **Smart imputation** — uses median for numerics, mode for categories (not naive zero/mean fill)
@@ -100,6 +100,6 @@ department_Design, department_Engineering, department_Marketing, score_norm
 
 ---
 
-## 📄 License
+## License
 
 MIT
